@@ -45,7 +45,7 @@ It is recommended that you have read the paper before you start to run the scrip
 
 5. Now you can generate figures 2, 3, 4, 5, 6 and 7 in the paper by running **figure_2.ipynb, figure_3.ipynb, figure_4.ipynb, figure_5.ipynb, figure_6.ipynb and figure_7.ipynb**.
 
-6. To generate figure 8 in the paper, you have to first run **rss_seen_deer_shuffle.ipynb**. You can generate the whole data set by running this script alone. But this takes a very long time, so ut is recommended that you make several copies of it and run them in parallel in Jupyter lab. Then you merge the generated lists and put the merge into **figure_8.ipynb** before you run it.
+6. To generate figure 8 in the paper, you have to first run **rss_seen_deer_shuffle.ipynb**. You can generate the whole data set by running this script alone. But this takes a very long time, so it is recommended that you make several copies of it and run them in parallel in Jupyter lab. Then you merge the generated lists and put the merge into **figure_8.ipynb** before you run it.
 
 
 **Additional scripts in this repo:**
