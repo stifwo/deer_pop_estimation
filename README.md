@@ -34,18 +34,17 @@ It is recommended that you have read the paper before you start to run the scrip
 
 **figure_8.ipynb**: Produces figure 8 in the paper based on data provided by rss_seen_deer_shuffle.ipynb.
 
-**Program flow - what to execute when:**
-1. After you have cloned the repo and are ready to run the scripts in Jupyter lab, make two new subdirectories **\figures** and **\synthetic_data** as the scripts expect these to be in place for storing results.
+**Program flow - what to execute when after you have cloned the repo:**
 
-2. To make the set of hypothetical population projections you have to run **data_municipalities.ipynb** and then **make_synthetic_populations.ipynb**. Note that the latter is memory-greedy, so you will need to run it on a computer with sufficient RAM. 100 GB RAM will probably be fine. The code has not been parallelized, so the script will take several hours to finish. 
+1. To make the set of hypothetical population projections you have to run **data_municipalities.ipynb** and then **make_synthetic_populations.ipynb**. Note that the latter is memory-greedy, so you will need to run it on a computer with sufficient RAM. 100 GB RAM will probably be fine. The code has not been parallelized, so the script will take several hours to finish. 
 
-3. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the seen_deer_per_hour data you run **rss_seen_deer.ipynb** and **rss_no_emigration_seen_deer.ipynb**. The latter uses only those hypothetical projections where there is no stag emigration per definition.
+2. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the seen_deer_per_hour data you run **rss_seen_deer.ipynb** and **rss_no_emigration_seen_deer.ipynb**. The latter uses only those hypothetical projections where there is no stag emigration per definition.
 
-4. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the spring census data you  run **rss_seen_deer.ipynb**.
+3. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the spring census data you  run **rss_seen_deer.ipynb**.
 
-5. Now you can generate figures 2, 3, 4, 5, 6 and 7 in the paper by running **figure_2.ipynb, figure_3.ipynb, figure_4.ipynb, figure_5.ipynb, figure_6.ipynb and figure_7.ipynb**.
+4. Now you can generate figures 2, 3, 4, 5, 6 and 7 in the paper by running **figure_2.ipynb, figure_3.ipynb, figure_4.ipynb, figure_5.ipynb, figure_6.ipynb and figure_7.ipynb**.
 
-6. To generate figure 8 in the paper, you have to first run **rss_seen_deer_shuffle.ipynb**. You can generate the whole data set by running this script alone. But this takes a very long time, so it is recommended that you make several copies of it and run them in parallel in Jupyter lab. Then you merge the generated lists and put the merge into **figure_8.ipynb** before you run it.
+5. To generate figure 8 in the paper, you have to first run **rss_seen_deer_shuffle.ipynb**. You can generate the whole data set by running this script alone. But this takes a very long time, so it is recommended that you make several copies of it and run them in parallel in Jupyter lab. Then you merge the generated lists and put the merge into **figure_8.ipynb** before you run it.
 
 
 **Additional scripts in this repo:**
