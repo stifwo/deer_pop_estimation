@@ -8,7 +8,7 @@ It is recommended that you have read the paper before you start to run the scrip
 
 **What the deposited Jupyter lab scripts do**:
 
-**data_municipalities.ipynb**: Contains all empirical data used for each of the six municipalities studied, except slaughter weight data which are embedded in figure_3.ipynb that produces figure 3. 
+**data_municipalities.ipynb**: Contains all empirical data used for each of the six municipalities studied, except the slaughter weight data underlying figure 3. These are embedded in **figure_3.ipynb**. 
 
 **make_synthetic_populations.ipynb**: Creates a large set of hypothetical population projections for each of the six municipalities by use of a stochastic sex- and stage-structured population model, using reported harvest data specific to each municipality.
 
@@ -40,7 +40,7 @@ It is recommended that you have read the paper before you start to run the scrip
 
 2. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the seen_deer_per_hour data you run **rss_seen_deer.ipynb** and **rss_no_emigration_seen_deer.ipynb**. The latter uses only those hypothetical projections where there is no stag emigration per definition.
 
-3. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the spring census data you  run **rss_seen_deer.ipynb**.
+3. To do the residual-sum-of-squares analysis based on the hypothetical population projection set and the spring census data you  run **rss_spring_census.ipynb**.
 
 4. Now you can generate figures 2, 3, 4, 5, 6 and 7 in the paper by running **figure_2.ipynb, figure_3.ipynb, figure_4.ipynb, figure_5.ipynb, figure_6.ipynb and figure_7.ipynb**.
 
