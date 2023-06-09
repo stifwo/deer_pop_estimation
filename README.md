@@ -6,6 +6,8 @@ Reliable estimates of the size and composition of harvested populations over tim
 
 It is recommended that you have read the paper before you start to run the scripts.
 
+The scripts are written in Jupyter lab (version 3.6.1), using Python (version 3.8.5).
+
 **What the deposited Jupyter lab scripts do**:
 
 **data_municipalities.ipynb**: Contains all empirical data used for each of the six municipalities studied, except the slaughter weight data underlying figure 3. These are embedded in **figure_3.ipynb**. 
