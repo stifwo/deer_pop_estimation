@@ -55,7 +55,7 @@ Scripts named **figure_S1.ipynb, figure_S2.ipynb, figure_S3_and_S4.ipynb, figure
 8. Run **figure_S5.ipynb** to reproduce Fig. S5.
 
 
-**Auxiliary scripts (located in the subdirectory auxiliary_script):**
+**Auxiliary scripts (located in the subdirectory auxiliary_scripts):**
 
 **test_trends.ipynb:** assesses trends in the reported time series data by use of various techniques and calculates cv and max relative distance from mean for the seen_deer data.
 
